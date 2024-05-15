@@ -1,0 +1,58 @@
+data: 'imu'
+data_param:
+  train_data_param:
+    data_path: H:\paper6data\gyro\train_npy
+    label_path:
+    dir_flag: True
+
+
+  val_data_param:
+    data_path: H:\paper6data\gyro\test_npy
+    label_path:
+    dir_flag: True
+
+model: 'single_sgn'
+model_param:
+  seg: 10
+  num_joint: 5
+  dim: 256
+  num_joint_ori: 5
+  adaptive_transform: True
+  gcn_type: 'big'
+
+pipeline: 'classify'
+pipeline_param:
+
+loss: 'label_smooth_CE'
+loss_param:
+  label_smoothing_num: 0.1
+
+lr_scheduler: 'reduce_by_epoch'
+lr_scheduler_param:
+  step: [60, 90, 110]
+  lr_decay_ratio: 0.1
+  warm_up_epoch: 0
+freeze_keys: [['transform', 30]]
+lr_multi_keys: []
+
+optimizer: 'adam'
+optimizer_param:
+  lr: 0.001
+  weight_decay: 0.0001
+
+seed: 1
+eval: False
+class_num: 11
+batch_size: 32
+worker: 0
+pin_memory: False
+max_epoch: 120
+num_epoch_per_save: 50
+model_saved_name: 'H:\code\paper6\work_dir\test'
+last_model:
+pre_trained_model: 'H:\code\paper6\work_dir\SGN\gyro-best.state'
+ignore_weights: []
+val_first: False
+device_id: [0]
+cuda_visible_device: '0'
+debug: False
