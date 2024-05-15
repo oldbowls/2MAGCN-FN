@@ -1,8 +1,9 @@
 # 2MAGCN-FS
 
-#Train
+# Train
+
 python train.py -config config/imu_singlesgn.yaml 
 
-#TEST
+# TEST
 
 python train.py -config config/imu_singlesgn.yaml -eval True -pre_trained_model xxx.pt
