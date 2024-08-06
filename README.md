@@ -14,7 +14,9 @@ In the embedded system, real-time gesture recognition is crucial to human-comput
 - PyTorch >= 1.1.0
 - PyYAML, tqdm, tensorboardX
 
-# 
+# Data
+
+Data will be provided by sending an email to dlh@mail.nwpu.edu.cn.
 
 # Train
 
