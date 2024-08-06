@@ -14,10 +14,6 @@ In the embedded system, real-time gesture recognition is crucial to human-comput
 - PyTorch >= 1.1.0
 - PyYAML, tqdm, tensorboardX
 
-# Data
-
-Data will be provided by sending an email to dlh@mail.nwpu.edu.cn.
-
 # Train
 
 python train.py -config config/imu_singlesgn.yaml 
@@ -25,6 +21,10 @@ python train.py -config config/imu_singlesgn.yaml
 # TEST
 
 python train.py -config config/imu_singlesgn.yaml -eval True -pre_trained_model xxx.pt
+
+# Data
+
+Data will be provided by sending an email to dlh@mail.nwpu.edu.cn.
 
 # License
 
