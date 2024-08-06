@@ -24,9 +24,10 @@ python train.py -config config/imu_singlesgn.yaml
 
 python train.py -config config/imu_singlesgn.yaml -eval True -pre_trained_model xxx.pt
 
-#License
+# License
 
 The source codes including the checkpoint can be freely used for research and education only. Any commercial use should get formal permission from the principal investigator (dlh@mail.nwpu.edu.cn).
 
-#Acknowledgement
+# Acknowledgement
+
 This repository is built upon FMA-Net, with data processing techniques adapted from SGN.
