@@ -32,4 +32,4 @@ The source codes including the checkpoint can be freely used for research and ed
 
 # Acknowledgement
 
-This repository is built upon FMA-Net, with data processing techniques adapted from SGN.
+This repository is built upon SGN.
