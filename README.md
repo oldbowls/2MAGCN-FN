@@ -20,6 +20,8 @@ In the embedded system, real-time gesture recognition is crucial to human-comput
 
 
 2.Download the skeleton-only datasets:
+
+
 Ⅰ.daily+and +sports+activities.zip (DSADS)
 
 Ⅱ.Extract above files to daily+and +sports+activities
