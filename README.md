@@ -17,6 +17,8 @@ In the embedded system, real-time gesture recognition is crucial to human-comput
 # Data Preparation
 
 1.Request dataset here: https://archive.ics.uci.edu/dataset/256/daily+and+sports+activities
+
+
 2.Download the skeleton-only datasets:
 Ⅰ.daily+and +sports+activities.zip (DSADS)
 
