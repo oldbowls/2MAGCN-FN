@@ -14,6 +14,28 @@ In the embedded system, real-time gesture recognition is crucial to human-comput
 - PyTorch >= 1.1.0
 - PyYAML, tqdm, tensorboardX
 
+# Data Preparation
+
+1.Request dataset here: https://archive.ics.uci.edu/dataset/256/daily+and+sports+activities
+2.Download the skeleton-only datasets:
+Ⅰ.daily+and +sports+activities.zip (DSADS)
+Ⅱ.Extract above files to daily+and +sports+activities
+
+# Data Processing
+
+```
+ cd ./data/ntu # or cd ./data/ntu120
+ # Get skeleton of each performer
+ python get_raw_skes_data.py
+ # Remove the bad skeleton 
+ python get_raw_denoised_data.py
+ # Transform the skeleton to the center of the first frame
+ python seq_transformation.py
+```
+
+
+
+
 # Train
 
 python train.py -config config/imu_singlesgn.yaml 
