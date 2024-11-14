@@ -24,13 +24,9 @@ In the embedded system, real-time gesture recognition is crucial to human-comput
 # Data Processing
 
 ```
- cd ./data/ntu # or cd ./data/ntu120
- # Get skeleton of each performer
- python get_raw_skes_data.py
- # Remove the bad skeleton 
- python get_raw_denoised_data.py
- # Transform the skeleton to the center of the first frame
- python seq_transformation.py
+ cd ./UCIdata
+ # change the data path. 
+ python UCI.py
 ```
 
 
@@ -38,11 +34,11 @@ In the embedded system, real-time gesture recognition is crucial to human-comput
 
 # Train
 
-python train.py -config config/imu_singlesgn.yaml 
+python train.py -config config/UCI.yaml 
 
 # TEST
 
-python train.py -config config/imu_singlesgn.yaml -eval True -pre_trained_model xxx.pt
+python train.py -config config/UCI.yaml -eval True -pre_trained_model xxx.pt
 
 # Data
 
