@@ -42,6 +42,8 @@ In the embedded system, real-time gesture recognition is crucial to human-comput
 
 ```
 
+## Generating Data
+
 ```
  cd ./UCIdata
  # change the data path. 
