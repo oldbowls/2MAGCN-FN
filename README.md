@@ -42,7 +42,7 @@ Note:  We also provide a strong and lightweight model, which shows that the aver
 
 ## Generating Data
 
-- Generate train and test dataset:
+- Generate train and test dataset. In this study, we use $p_1$, $p_2$, $p_3$, $p_4$, $p_5$, $p_6$, and $p_7$ as the training set, while $p_8$ serves as the test set.
 
 ```
  # Modify the input and output data paths on lines 46 to 48.
