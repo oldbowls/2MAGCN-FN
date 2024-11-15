@@ -56,9 +56,10 @@ Note:  We also provide a strong and lightweight model, which shows that the aver
 
 # Training & Testing
 
+
 ## Train
 
-- Change the config file depending on what you want.
+- Change the config file depending on what you want. (The configuration file is located in config/UCI.yaml.)
 
 ```python train.py -config config/UCI.yaml ```
 
