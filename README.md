@@ -57,13 +57,13 @@ This repo is the official implementation for "An Efficient Gesture Recognition f
 
 - Change the config file depending on what you want.
 
-python train.py -config config/UCI.yaml 
+```python train.py -config config/UCI.yaml ```
 
 ## TEST
 
 - To test the trained models saved in <work_dir>, run the following command:
 
-python train.py -config config/UCI.yaml -eval True -pre_trained_model xxx.pt
+```python train.py -config config/UCI.yaml -eval True -pre_trained_model xxx.pt```
 
 
 # License
