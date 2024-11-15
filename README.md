@@ -53,6 +53,11 @@ This repo is the official implementation for "An Efficient Gesture Recognition f
 
 
 # Training & Testing
+
+# Pretrained Models
+
+Download pretrained models for producing the final results [[Google Drive]](https://drive.google.com/drive/folders/1YI-4TdKMhfesqc1alfhbV0POiQqKf9A3?usp=sharing). .
+
 ## Train
 
 - Change the config file depending on what you want.
