@@ -22,9 +22,9 @@ Note:  We also provide a strong model, which shows that the average inference ti
 2.Download the skeleton-only datasets:
 
 
-Ⅰ.daily+and +sports+activities.zip (DSADS)
+  Ⅰ.daily+and +sports+activities.zip (DSADS)
 
-Ⅱ.Extract above files to daily+and +sports+activities
+  Ⅱ.Extract above files to daily+and +sports+activities
 
 # Data Processing
 
