@@ -42,26 +42,30 @@ In the embedded system, real-time gesture recognition is crucial to human-comput
 
 ## Generating Data
 
+- Generate train and test dataset:
+
 ```
+ # Modify the input and output data paths on lines 46 to 48.
  cd ./UCIdata
- # change the data path. 
+ # Run the Python script to generate the training and testing datasets.
  python UCI.py
 ```
 
 
 
+# Training & Testing
+## Train
 
-# Train
+- Change the config file depending on what you want.
 
 python train.py -config config/UCI.yaml 
 
-# TEST
+## TEST
+
+- To test the trained models saved in <work_dir>, run the following command:
 
 python train.py -config config/UCI.yaml -eval True -pre_trained_model xxx.pt
 
-# Data
-
-Data will be provided by sending an email to dlh@mail.nwpu.edu.cn.
 
 # License
 
