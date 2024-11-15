@@ -36,7 +36,7 @@ Note:  We also provide a strong and lightweight model, which shows that the aver
     - a01
     - a02
       ...
-    - a19 # raw data of NW-UCLA
+    - a19 # raw data of DSADS
 
 ```
 
