@@ -69,7 +69,7 @@ Download pretrained models for producing the final results [[Google Drive]](http
 
 - To test the trained models saved in <model_saved_name>, run the following command:
 
-```python train.py -config config/UCI.yaml -eval True -pre_trained_model xxx.pt```
+```python train.py -config config/UCI.yaml -eval True -pre_trained_model xxx.state```
 
 
 # License
