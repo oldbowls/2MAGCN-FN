@@ -47,7 +47,8 @@ Note:  We also provide a strong and lightweight model, which shows that the aver
 ```
  # Modify the input and output data paths on lines 46 to 48.
  cd ./UCIdata
- # Run the Python script to generate the training and testing datasets. This  Python script will output train.npy train_label.pkl test.npy test_label.pkl
+ # Run the Python script to generate the training and testing datasets.
+ # This  Python script will output train.npy train_label.pkl test.npy test_label.pkl
  python UCI.py
 ```
 
