@@ -67,7 +67,7 @@ Download pretrained models for producing the final results [[Google Drive]](http
 
 ## TEST
 
-- To test the trained models saved in <work_dir>, run the following command:
+- To test the trained models saved in <model_saved_name>, run the following command:
 
 ```python train.py -config config/UCI.yaml -eval True -pre_trained_model xxx.pt```
 
