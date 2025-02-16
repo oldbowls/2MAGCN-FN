@@ -1,8 +1,8 @@
-# 2MAGCN-FS
+# 2MAGCN-FN
 This repo is the official implementation for "An Efficient Gesture Recognition for HCI Based on Semantics-Guided GCNs and Adaptive Regularization Graphs"
 
 Note:  We also provide a strong and lightweight model, which shows that the average inference time on raspberry pi 4b is less than 4 ms. Extensive testing on the self-construct dataset indicates that the proposed method outperforms previous state-of-the-art (SOTA) methods on multiple metrics. The accuracy reached 89.47\% on public dataset, leading other methods. Experiments in the simulation environment show that our method meets the high-precision and real-time requirements for autonomous taxiing of UAVs.
-## Architecture of 2MAGCN-FS
+## Architecture of 2MAGCN-FN
 ![image](src/pic3.png)
 
 # Prerequisites
