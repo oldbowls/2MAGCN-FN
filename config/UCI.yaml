@@ -20,6 +20,8 @@ model_param:
   num_joint_ori: 5
   adaptive_transform: True
   gcn_type: 'big'
+  regu1: 0.1
+  regu2: 0
 
 pipeline: 'classify'
 pipeline_param:
