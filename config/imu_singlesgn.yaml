@@ -18,7 +18,9 @@ model_param:
   dim: 256
   num_joint_ori: 5
   adaptive_transform: True
-  gcn_type: 'big'
+  gcn_type: 'small'
+  regu1: 0.1
+  regu2: 0.2
 
 pipeline: 'classify'
 pipeline_param:
